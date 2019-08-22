@@ -9,7 +9,7 @@ def index():
 
 @app.route('/yuseon')
 def yuseon():
-    return render_template('introduce.html')
+    return render_template('intro.html')
 
 if __name__ == '__main__':
     app.run()
