@@ -11,8 +11,8 @@ from linebot.models import (
 
 app = Flask(__name__)
 
-line_bot_api = LineBotApi('Your Channel Access Token')
-handler = WebhookHandler('36d86887eff5c9fd4acddc59940c1650')
+line_bot_api = LineBotApi('GTlOAYvr3rP9/O8KFCWYOpBvcWKkZ9pgMKz4LY+UH25qAq16pqJEEA60lemV9ajHWKySDIIUaD3nK3Pak/h1fOMrOWYFI77xqjM8zonLMM7LoW8p8FJM4v4UuT6SJPv6IDA/RxoVJWRbFdvzeYnggAdB04t89/1O/w1cDnyilFU=')
+handler = WebhookHandler('36d86887eff5c9fd4acddc59940c1650')  # 해킹방지 암호화
 
 
 @app.route('/callback', methods=['POST'])
